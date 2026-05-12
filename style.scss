@@ -124,16 +124,17 @@ header{
   .sec3-container{
     margin: auto;
     max-width: 1200px;
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
     .sec3-block1{
       width: 30%;
       padding: 10px;
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgb(150, 150, 150);
       .bt{
-        color: #ffffff;
+      color: #ffffff;
       padding: 12px 30px;
       border: none;
       background-color: #217BF4;
@@ -143,6 +144,25 @@ header{
       margin-bottom: 20px;
       margin-left: 20px;
       }
+    }
+  }
+}
+.section4{
+  background: linear-gradient(to right, #FFFFFF, #F1F6FD, #F1F6FD, #F1F6FD00);
+  height: 800px;
+  padding: 1px;
+  .sec4-container{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .sec4-block1{
+      background-color: rgb(255, 255, 255);
+      width: 45%;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 30px;
     }
   }
 }

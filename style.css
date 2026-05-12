@@ -123,9 +123,10 @@ header .header-container input {
 .section3 .sec3-container {
   margin: auto;
   max-width: 1200px;
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .section3 .sec3-container .sec3-block1 {
   width: 30%;
@@ -143,4 +144,24 @@ header .header-container input {
   border-radius: 7px;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+.section4 {
+  background: linear-gradient(to right, #FFFFFF, #F1F6FD, #F1F6FD, rgba(241, 246, 253, 0));
+  height: 800px;
+  padding: 1px;
+}
+.section4 .sec4-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section4 .sec4-container .sec4-block1 {
+  background-color: rgb(255, 255, 255);
+  width: 45%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=style.css.map */
