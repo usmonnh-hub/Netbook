@@ -230,6 +230,7 @@ header .header-container input {
   background: transparent;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  color: #fff;
 }
 .footer .footer-container button {
   padding: 15px 15px;
@@ -244,6 +245,6 @@ header .header-container input {
   display: flex;
   justify-content: space-around;
   color: #fff;
-  padding: 30px;
+  padding: 35px;
   align-items: center;
 }/*# sourceMappingURL=style.css.map */
