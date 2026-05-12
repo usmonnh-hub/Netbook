@@ -118,4 +118,29 @@ header .header-container input {
   align-items: center;
   max-width: 550px;
   gap: 30px;
+}
+
+.section3 .sec3-container {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.section3 .sec3-container .sec3-block1 {
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(150, 150, 150);
+}
+.section3 .sec3-container .sec3-block1 .bt {
+  color: #ffffff;
+  padding: 12px 30px;
+  border: none;
+  background-color: #217BF4;
+  font-weight: 550;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */
