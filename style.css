@@ -40,4 +40,56 @@ header .header-container input {
   border: 1px solid grey;
   border-radius: 10px;
   background-color: rgba(212, 231, 254, 0.2196078431);
+}
+
+.section1 {
+  background: linear-gradient(to right, #FFFFFF, #D4E7FE);
+  height: 650px;
+}
+.section1 .section1-container {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.section1 .section1-container .btn1 {
+  background-color: #c4d9f5;
+  padding: 12px 30px;
+  border: none;
+  color: #217BF4;
+  font-weight: 550;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.section1 .section1-container h1 {
+  color: #0A093D;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.section1 .section1-container P {
+  margin-bottom: 50px;
+}
+.section1 .section1-container .buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section1 .section1-container .buttons .sec1-btn1, .section1 .section1-container .buttons .sec1-btn2 {
+  padding: 20px 40px;
+  background-color: #217BF4;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.section1 .section1-container .buttons .sec1-btn2 {
+  background-color: transparent;
+  color: #217BF4;
+  border: 2px solid #217BF4;
+}
+.section1 .section1-container .d img {
+  margin-top: -100px;
 }/*# sourceMappingURL=style.css.map */
