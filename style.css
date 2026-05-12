@@ -198,4 +198,16 @@ header .header-container input {
 }
 .section6 .sec6-container .sec6-text {
   width: 40%;
+}
+
+.sec7-container {
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.sec7-container .s1 {
+  width: 30%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
