@@ -172,6 +172,7 @@ header{
   max-width: 1300px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
   .per1{
     width: 20%;
     text-align: center;
@@ -179,5 +180,21 @@ header{
     border-radius: 10px;
     border: 2px solid #F3F3F3;
     padding-bottom: 10px;
+  }
+}
+.section6{
+  background-color: #E5F0FD;
+  height: 600px;
+  padding: 1px;
+  margin-bottom: 100px;
+  .sec6-container{
+    margin: auto;
+    max-width: 1300px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    .sec6-text{
+      width: 40%;
+    }
   }
 }
