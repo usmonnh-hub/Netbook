@@ -95,3 +95,28 @@ header{
     }
   }
 }
+.section2{
+  height: 700px;
+  .sec2-container{
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    .sec2-text{
+      margin-top: 50px;
+      ul{
+        color: #000;
+        li::marker{
+          color: #217BF4;
+        }
+      }
+    }
+    .sec2-imges{
+      display: flex;
+      align-items: center;
+      max-width: 550px;
+      gap: 30px;
+    }
+  }
+}
